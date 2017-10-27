@@ -33,7 +33,7 @@ while($array = mysql_fetch_array($query, MYSQL_ASSOC)){
 <?
 }
 } else {
-    echo 'Тут пусто. Накормите свой блог чем-нибудь.<br><a class="button">Накормить</a>';
+    echo 'Тут пусто. Накормите свой блог чем-нибудь.<br><br><br><a class="button" href="write">Накормить</a>';
 }
 ?>
 </div>
