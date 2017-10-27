@@ -1,0 +1,17 @@
+Если вдруг у вас не работает install.php, то:
+1) попробуйте проверить правильность введенных данных
+
+Если данные верны, но база или таблица все-равно не создается, то используйте команду MySQL:
+CREATE DATABASE <имя базы>
+CREATE TABLE IF NOT EXISTS posts   
+(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,  
+preview TEXT,  
+header TEXT,  
+content TEXT)
+и вручную создайте файл info.php (по сути, файл install.php сам создаёт файл, но если вдруг...)
+<?
+	$blogname = "<название блога>";
+    mysql_connect("<хост>", "<юзер>", "<пасс>");
+    mysql_select_db("<имя базы>");
+?>
+И не забываем, что это даже не бета, а альфа.

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^post([0-9]+)$ read.php?id=$1
+RewriteRule ^post([0-9]+)/$ read.php?id=$1
+RewriteRule ^write write.php 
