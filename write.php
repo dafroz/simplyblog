@@ -23,7 +23,7 @@ include("info.php");
 </div>
 <?
 if($_POST['header'] != ""){
-	$query = mysql_query("INSERT INTO `simplytest`.`posts` (`id`, `preview`, `header`, `content`) VALUES (NULL, '".$_POST['preview']."', '".$_POST['header']."', '".$_POST['text']."');");
+	$query = mysql_query("INSERT INTO `posts` (`id`, `preview`, `header`, `content`) VALUES (NULL, '".$_POST['preview']."', '".$_POST['header']."', '".$_POST['text']."');");
 	echo 'Пост успешно опубликован. <a href="index.php">На главную</a>';
 }
 ?>
