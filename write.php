@@ -15,9 +15,9 @@ include("info.php");
 <div style="padding-top: 65px;"></div>
 <div id="main-content">
 <form action="" method="post">
-<textarea name="text" placeholder="Текст поста"></textarea><br>
-<textarea type="textarea" name="preview" placeholder="Превью поста"></textarea><br>
-<input type="text" name="header" placeholder="Заголовок"><br>
+<textarea id="publishing" name="text" placeholder="Текст поста"></textarea><br>
+<textarea id="publishing" type="textarea" name="preview" placeholder="Превью поста"></textarea><br>
+<input id="publishing" type="text" name="header" placeholder="Заголовок"><br><br>
 <button type="submit" class="button">Отправить!</button>
 </form>
 </div>
