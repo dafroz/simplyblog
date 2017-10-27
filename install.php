@@ -4,7 +4,7 @@
 <title>Установщик</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <body>
-<span>Здравствуйте. На этой странице вы сможете установить SimplyBlog 0.0.1</span><br>
+<span>Здравствуйте. На этой странице вы сможете установить SimplyBlog 0.1-alpha.1</span><br>
 <form action="" method="get">
 	<input type="text" name="blogname" placeholder="Название блога"><br>
 	<input type="text" name="mysql_user" placeholder="Имя учётной записи пользователя MySQL"><br>
